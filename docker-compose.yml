@@ -1,0 +1,10 @@
+
+# create a docker-compose file for a nodejs project, expose port 3000
+version: '3'
+
+services:
+  app:
+    build:
+      context: .
+    ports:
+      - "3000:3000"
